@@ -523,6 +523,7 @@ public class DialogsListAdapter<DIALOG extends IDialog>
         protected View divider;
 
         public DialogViewHolder(View itemView) {
+            // 哈哈哈测试通过
             super(itemView);
             root = itemView.findViewById(R.id.dialogRootLayout);
             container = itemView.findViewById(R.id.dialogContainer);
